@@ -80,6 +80,23 @@ const networks = {
         decimals: 18
     }
   },
+  // OPT: {
+  //   symbol: 'OPT',
+  //   name: 'Optimistic Ethereum',
+  //   rpcURL: 'https://mainnet.optimism.io',
+  //   chartURL: 'https://dexscreener.com/optimism/',
+  //   blockRateSeconds: 13.14,
+  //   stableKey: "token1",
+  //   LPAddress: "0x03aF20bDAaFfB4cC0A521796a223f7D85e2aAc31",
+  //   token0: {
+  //       address: "0x4200000000000000000000000000000000000006",
+  //       decimals: 18
+  //   },
+  //   token1: {
+  //       address: "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+  //       decimals: 18
+  //   }
+  // },
   MATIC: {
     symbol: 'MATIC',
     name: 'Polygon',
@@ -208,10 +225,10 @@ const networks = {
   // }
 };
 
-const reducerKeys = {
-  CURRENCY_CONERSION: 'CURRENCY_CONVERSION',
-  CURRENCY_KEY: 'CURRENCY_KEY',
-}
+// const reducerKeys = {
+//   CURRENCY_CONERSION: 'CURRENCY_CONVERSION',
+//   CURRENCY_KEY: 'CURRENCY_KEY',
+// }
 
 
 export {
