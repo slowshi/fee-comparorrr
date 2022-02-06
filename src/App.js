@@ -6,13 +6,12 @@ import {useEffect} from 'react';
 import { networks } from './utils/constants';
 import 'bootstrap/dist/css/bootstrap.css'
 function App() {
-  // I dunno...
-  const hackyBool = true;
   useEffect(()=>{
-    if(hackyBool) {
+    loadGas();
+    setInterval(() => {
       loadGas();
-    }
-  },[hackyBool]);
+    }, 15000);
+  },[]);
 
   const networkInfo = useSelector(state => {
     return Object.keys(state.networkInfo).map((key)=>{
